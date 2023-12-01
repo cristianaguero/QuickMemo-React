@@ -1,0 +1,1 @@
+This was my first React aplication. it's a simple notes app, where you can add, edit and delete notes. It's not connected to a database, but uses local storage to save the notes. I used Vite to create the project, and TailwindCSS for styling.
