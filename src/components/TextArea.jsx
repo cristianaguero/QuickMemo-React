@@ -34,7 +34,7 @@ function TextArea() {
                 onChange={handleTitle}  
                 type="text" 
                 placeholder="Title" 
-                className='rounded-md shadow-md p-2 m-3 w-80'
+                className='rounded-md shadow-md p-2 m-3 w-72 md:w-80'
                 name='title'
                 id='title' />
             <textarea 
@@ -42,7 +42,7 @@ function TextArea() {
                 onChange={handleInput} 
                 onKeyUp={handleLimite}
                 onKeyDown={handleHeight}
-                className='rounded-md shadow-md p-2 mx-3 resize-none' 
+                className='rounded-md shadow-md p-2 mx-3 resize-none w-80 md:w-96' 
                 name="note" 
                 id="note" 
                 cols="40" 
